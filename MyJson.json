@@ -1,0 +1,17 @@
+[{
+  type: 0,	// 0 : [Names]'s internal class
+  			// 1 : Internal tool from path : "C:\EV6_SV140\Bin"
+  			// 2 : external tool with absolute path
+  name: "SendIndicators",
+  critical: false,
+},
+  type: 1,
+  name: "Tool_updater.exe",
+  parameters: ["-a"],
+  critical: true,
+},
+  type: 2,
+  name: "C:\Program Files\7-Zip\7z.exe",
+  parameters: ["-a IHM IHM.zip"],
+  critical: false,
+}]
