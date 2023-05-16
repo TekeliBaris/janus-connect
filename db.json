@@ -1,17 +1,17 @@
 {
 	"EV6_Tasker": [{
-		"type": 0,
-		"name": "SendIndicators",
-		"critical": false
+		"Type": 0,
+		"Name": "SendIndicators",
+		"Critical": false
 	}, {
-		"type": 1,
-		"name": "Tool_updater.exe",
-		"parameters": ["-a"],
-		"critical": true
+		"Type": 1,
+		"Name": "Tool_updater.exe",
+		"Parameters": ["-a"],
+		"Critical": true
 	}, {
-		"type": 2,
-		"name": "C:\\Program Files\\7-Zip\\7z.exe",
-		"parameters": ["-a IHM IHM.zip"],
-		"critical": false
+		"Type": 2,
+		"Name": "C:\\Program Files\\7-Zip\\7z.exe",
+		"Parameters": ["-a IHM IHM.zip"],
+		"Critical": false
 	}]
 }
