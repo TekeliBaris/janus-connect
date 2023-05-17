@@ -9,6 +9,11 @@
 		"Parameters": ["-a"],
 		"Critical": true
 	}, {
+		"Type": 1,
+		"Name": "test_outil_introuvable.exe",
+		"Parameters": ["-a"],
+		"Critical": false
+	}, {
 		"Type": 2,
 		"Name": "C:\\Windows\\System32\\cdm.exe",
 		"Parameters": ["touch C:\\EV6_SV140\\Bin\\WSC\\test.sql"],
