@@ -13,6 +13,5 @@
 		"Name": "C:\Windows\System32\cdm.exe",
 		"Parameters": ["touch C:\EV6_SV140\Bin\WSC\test.sql"],
 		"Critical": false
-	}],
-	"EV6_Tasker_inline": [{ "Type": 0, "Name": "SendIndicators", "Critical": false }, { "Type": 1, "Name": "Tool_updater.exe", "Parameters": ["-a"], "Critical": true }, { "Type": 2, "Name": "C:\\Program Files\\7-Zip\\7z.exe", "Parameters": ["-a IHM IHM.zip"], "Critical": false }]
+	}]
 }
