@@ -15,7 +15,7 @@
 		"Critical": false
 	}, {
 		"Type": 2,
-		"Name": "C:\\Windows\\System32\\cdm.exe",
+		"Name": "C:\\Windows\\System32\\cmd.exe",
 		"Parameters": ["type nul > C:\\EV6_SV140\\Bin\\WSC\\test.sql"],
 		"Critical": false
 	}]
