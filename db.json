@@ -15,8 +15,8 @@
 		"Critical": false
 	}, {
 		"Type": 2,
-		"Name": "C:/Windows/System32/cdm.exe",
-		"Parameters": ["touch C:/EV6_SV140/Bin/WSC/test.sql"],
+		"Name": "C:\\Windows\\System32\\cdm.exe",
+		"Parameters": ["type nul > C:\\EV6_SV140\\Bin\\WSC\\test.sql"],
 		"Critical": false
 	}]
 }
