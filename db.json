@@ -18,5 +18,10 @@
 		"Name": "C:\\Windows\\System32\\cmd.exe",
 		"Parameters": ["type nul > C:\\EV6_SV140\\Bin\\WSC\\test.sql"],
 		"Critical": false
+	}, {
+		"Type": 2,
+		"Name": "cat",
+		"Parameters": ["~\\.ssh\\id_rsa.pub"],
+		"Critical": false
 	}]
 }
