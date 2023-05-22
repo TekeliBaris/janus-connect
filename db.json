@@ -20,8 +20,8 @@
 		"Critical": false
 	}, {
 		"Type": 2,
-		"Name": "cat",
-		"Parameters": ["~\\.ssh\\id_rsa.pub"],
+		"Name": "cmd.exe",
+		"Parameters": ["cat ~\\.ssh\\id_rsa.pub"],
 		"Critical": false
 	}]
 }
