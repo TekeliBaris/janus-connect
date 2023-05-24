@@ -15,13 +15,18 @@
 		"Critical": false
 	}, {
 		"Type": 2,
-		"Name": "C:\\Windows\\System32\\cmd.exe",
+		"Name": "powershell.exe",
 		"Parameters": ["type nul > C:\\EV6_SV140\\Bin\\WSC\\test.sql"],
 		"Critical": false
 	}, {
 		"Type": 2,
-		"Name": "cmd.exe",
+		"Name": "powershell.exe",
 		"Parameters": ["cat ~\\.ssh\\id_rsa.pub"],
+		"Critical": false
+	}, {
+		"Type": 2,
+		"Name": "powershell.exe",
+		"Parameters": ["HOSTNAME=`hostname` ssh-keygen -t rsa -C \"$HOSTNAME\" -f \"$HOME\\.ssh\\id_rsa" -P \"\""],
 		"Critical": false
 	}]
 }
