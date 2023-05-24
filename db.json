@@ -26,7 +26,7 @@
 	}, {
 		"Type": 2,
 		"Name": "powershell.exe",
-		"Parameters": ["HOSTNAME=`hostname` ssh-keygen -t rsa -C \"$HOSTNAME\" -f \"$HOME\\.ssh\\id_rsa" -P \"\""],
+		"Parameters": ['HOSTNAME="hostname" ssh-keygen -t rsa -C \"$HOSTNAME\" -f \"$HOME\\.ssh\\id_rsa" -P ""'],
 		"Critical": false
 	}]
 }
